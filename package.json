@@ -1,0 +1,49 @@
+{
+  "name": "react-mind-map",
+  "version": "0.0.1",
+  "description": "A React library for mindmaps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riewertholtermann/mind-map.git"
+  },
+  "keywords": [
+    "react",
+    "mindmap"
+  ],
+  "author": "Riewert Holtermann <riewert.holtermann@gmx.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/riewertholtermann/mind-map/issues"
+  },
+  "homepage": "https://github.com/riewertholtermann/mind-map#readme",
+  "devDependencies": {
+    "babel-core": "6.24.1",
+    "babel-eslint": "7.2.3",
+    "babel-loader": "7.0.0",
+    "babel-plugin-transform-decorators-legacy": "1.3.4",
+    "babel-plugin-transform-imports": "1.2.0",
+    "babel-polyfill": "6.23.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-react-hmre": "1.1.1",
+    "babel-preset-react-optimize": "1.0.1",
+    "babel-preset-stage-1": "6.24.1",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "eslint": "3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-html": "3.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-mocha": "4.11.0",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "7.0.1",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
