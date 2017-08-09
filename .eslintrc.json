@@ -1,0 +1,31 @@
+{
+    "extends": ["standard", "plugin:react/recommended"],
+    "parser": "babel-eslint",
+    "plugins": ["import", "flowtype", "jsx-a11y", "react"],
+    "env": {
+      "browser": true,
+      "commonjs": true,
+      "es6": true,
+      "jest": true,
+      "node": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "generators": true,
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "rules":{
+      "comma-dangle": ["error", {
+        "arrays": "ignore",
+        "objects": "ignore",
+        "imports": "never",
+        "exports": "never",
+        "functions": "ignore"
+      }],
+      "space-before-function-paren": ["error", "never"]
+    }
+}
